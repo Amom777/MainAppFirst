@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    tools:context="com.example.administrator.mainappfirst.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="28dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="60dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="140dp">
+        <Button
+            android:id="@+id/btn_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Text"/>
+        <Button
+            android:id="@+id/btn_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Picture"/>
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"/>
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="setting"/>
+        <Button
+            android:id="@+id/btn_profil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil"/>
+        <TextView
+            android:id="@+id/tv_View"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Tinggal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:onClick="ok"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

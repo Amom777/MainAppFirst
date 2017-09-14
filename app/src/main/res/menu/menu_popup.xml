@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/list_item1"
+        android:title="Pilihan 1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/list_item2"
+        android:title="Pilihan 2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/list_item3"
+        android:title="Pilihan 3"
+        app:showAsAction="never"/>
+
+</menu>
